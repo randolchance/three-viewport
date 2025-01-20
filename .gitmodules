@@ -1,0 +1,3 @@
+[submodule "vendor/nice-things"]
+	path = vendor/nice-things
+	url = https://github.com/randolchance/nice-things.git

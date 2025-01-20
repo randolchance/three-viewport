@@ -1,0 +1,19 @@
+{
+  "name": "three-viewport",
+  "version": "1.0.0",
+  "description": "three.js layered viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randolchance/three-viewport.git"
+  },
+  "author": "Dan Cook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randolchance/three-viewport/issues"
+  },
+  "homepage": "https://github.com/randolchance/three-viewport#readme"
+}

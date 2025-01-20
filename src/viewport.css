@@ -1,0 +1,19 @@
+.viewport,
+.viewport-layer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+}
+
+.viewport-layer-hidden {
+  top: 100vh;
+  left: 0;
+}
+
+.viewport-backdrop-layer {
+  z-index: -1;
+}
