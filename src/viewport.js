@@ -4,9 +4,9 @@ import {
   Vector3,
 } from "three";
 
-import { is, makeUrlString, Range } from "../../utils/utils";
-import { Pointer } from "../../utils/Pointer";
-import { normalise } from "../../utils/math2d";
+import { is, makeUrlString, Range } from "../vendor/nice-things/utils"
+import { Pointer } from "../vendor/nice-things/Pointer";
+import { normalise } from "../vendor/nice-things/math2d";
 
 import { ThreeElement } from "./three-element";
 import { ViewportLayer } from "./viewport-layer";
