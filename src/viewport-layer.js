@@ -13,12 +13,17 @@ import {
 
 import { ViewportLayerScenemaster } from "./viewport-layer-scenemaster";
 import { ViewportRenders } from "./viewport-renders";
-import { getEnvironmentMap } from './viewport-layer-environment';
+import { getEnvironmentMap } from "./viewport-layer-environment";
 
-import { ASPECTS } from "../util/constants";
-import { is } from '../util/utils';
-import { waitForCallback } from '../util/async_utils';
+import { is } from "../vendor/nice-things/utils";
+import { waitForCallback } from "../vendor/nice-things/async_utils";
 
+
+const ASPECTS = {
+  fullscreen: 4/3,
+  widescreen: 16/9,
+  
+}
 
 const KNOWN_IMAGE_TYPES = [
   'png',

@@ -1,5 +1,5 @@
 import { MathUtils, EventDispatcher } from "three";
-import { is } from "../util/utils";
+import { is } from "../vendor/nice-things/utils";
 
 const { generateUUID } = MathUtils;
 

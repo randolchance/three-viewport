@@ -12,10 +12,11 @@ import {
 
 import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer";
 
-import { ALL_LAYERS_INDEX, BLOOM_LAYER_INDEX } from "../util/constants";
-
 import { ViewportPasses } from "./viewport-passes";
 
+
+const ALL_LAYERS_INDEX = 0;
+const BLOOM_LAYER_INDEX = 1;
 
 const BLOOM_LAYER = new Layers();
 BLOOM_LAYER.set( BLOOM_LAYER_INDEX );

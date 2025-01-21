@@ -2,8 +2,10 @@ import { ShaderMaterial } from "three";
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
 import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass";
-import { FxaaPass } from "../fxaapass";
-import { is } from "../util/utils";
+import { FxaaPass } from "./custom-passes/fxaapass";
+
+import { is } from "../vendor/nice-things/utils";
+
 
 const DEFAULT_VERTEX_SHADER = `
   varying vec2 vUv;

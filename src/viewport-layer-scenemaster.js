@@ -1,7 +1,7 @@
 import { Scene, Fog } from "three";
 
-import { is, Range } from "../util/utils";
-import { normalise } from "../math2d";
+import { is, Range } from "../vendor/nice-things/utils";
+import { normalise } from "../vendor/nice-things/math2d";
 
 import { ThreeElement } from "./three-element";
 
