@@ -36,7 +36,7 @@ const DEFAULT_CONTAINER_CLASS_NAME = 'viewport';
 const DEFAULT_LISTENER_PARAMS = {
   capture: true,
   once: false,
-  passive: true,
+  passive: false,
 }
 
 const DEFAULT_EVENT_PARAMS = {
