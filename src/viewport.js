@@ -655,6 +655,8 @@ class Viewport extends ThreeElement {
     const dt = this.clock.getDelta();
     this.render( dt );
 
+    this.dispatchEvent({ type: 'update', dt, caller: this });
+
     requestAnimationFrame( this.animate );
 
   }
